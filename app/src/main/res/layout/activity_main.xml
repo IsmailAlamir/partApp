@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/groups_layout_background"
+    android:orientation="vertical"
+    tools:context=".MainActivity"
+    android:gravity="center">
+
+    <ImageView
+        android:id="@+id/groups_iv_person"
+        android:layout_width="@dimen/groups_image_width"
+        android:layout_height="@dimen/groups_image_height"
+        app:srcCompat="@drawable/boss"
+    />
+
+    <TextView
+        android:layout_marginTop="@dimen/groups_username_margin_top"
+        android:id="@+id/groups_tv_personName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/groups_tv_username"
+        android:textSize="@dimen/groups_username_textSize"
+        android:padding="@dimen/groups_username_padding"
+        android:textStyle="bold"
+        />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_margin="8dp"
+            android:padding="8dp"
+            android:id="@+id/groups_tv_pages"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/groups_btn_pages"
+            android:background="@drawable/group_tv_shape"
+            android:textColor="@color/white"
+
+            />
+
+        <TextView
+            android:layout_margin="8dp"
+            android:padding="8dp"
+            android:id="@+id/groups_tv_finish"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/groups_btn_pages_finish"
+            android:background="@drawable/group_tv_shape"
+            android:textColor="@color/white"
+            />
+    </LinearLayout>
+
+    <TextView
+        android:layout_marginTop="40dp"
+        android:id="@+id/groups_et_search"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:padding="8dp"
+        android:textStyle="bold"
+        android:text="@string/groups_tv_search_hint1"
+        />
+
+    <EditText
+        android:id="@+id/groups_tv_searchHint"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="24dp"
+        android:layout_marginVertical="4dp"
+        android:background="@drawable/groups_et_search"
+        android:drawableEnd="?android:attr/actionModeWebSearchDrawable"
+        android:drawablePadding="4dp"
+        android:hint="@string/groups_et_search_hint"
+        android:padding="12dp"
+
+        android:textColorHint="@color/groups_editText_hintColor" />
+
+    <TextView
+        android:gravity="center"
+        android:textSize="16sp"
+        android:layout_marginHorizontal="18dp"
+        android:padding="8dp"
+        android:textColor="@color/groups_textView_textColor"
+        android:id="@+id/groups_tv_hint2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/groups_tv_search_hint2" />
+
+    <TextView
+        android:layout_marginTop="24dp"
+        android:gravity="center"
+        android:textColor="@color/groups_textView_createGroup_textColor"
+        android:textSize="16sp"
+        android:padding="8dp"
+        android:id="@+id/groups_tv_createGroup"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/groups_tv_createNewGroup" />
+
+
+</LinearLayout>

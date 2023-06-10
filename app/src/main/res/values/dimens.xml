@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <dimen name="groups_image_width">110dp</dimen>
+    <dimen name="groups_image_height">110dp</dimen>
+    <dimen name="groups_username_margin_top">10dp</dimen>
+    <dimen name="groups_username_textSize">20dp</dimen>
+    <dimen name="groups_username_padding">8dp</dimen>
+
+</resources>
