@@ -7,7 +7,7 @@
     <string name="groups_tv_search_hint2">Enter group ID to search for ask ID from group admin</string>
     <string name="groups_tv_username">Username</string>
     <string name="groups_tv_createNewGroup">Create new group</string>
-    <string-array name="shapes" >
+    <string-array name="shapes">
         <item>rectangle</item>
         <item>triangle</item>
         <item>circle</item>
